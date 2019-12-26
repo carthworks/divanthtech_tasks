@@ -1,0 +1,26 @@
+<div class="page-wrap">
+  <div class="row ">
+    <section class="col-12 mx-10">
+      <h3>Hi {{ currentUser.firstName }}!</h3>
+    </section>
+    <section class="col-12 mx-10">
+     <app-d3barchart *ngIf="chartData" [data]="chartData"> loading graph...</app-d3barchart>
+
+     <br/>
+     <button  class="btn btn-dark" (click)="generateData()">generateData</button>
+     <br/>
+     <br/>
+    </section>
+
+    <section class="col-12 mx-10">
+      <app-datagrid> loading data table...</app-datagrid>
+    </section>
+  </div>
+</div>
+
+<style>
+  .bg-dark {
+    background-image: -webkit-linear-gradient(-30deg, #00004d 0%, #5333ed 49%, #2cd4d9 100%);
+    background-color: #343a40 !important;
+  }
+</style>

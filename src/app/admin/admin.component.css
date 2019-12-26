@@ -1,0 +1,4 @@
+.bg-dark {
+    background-image: -webkit-linear-gradient(-30deg, #00004d 0%, #5333ed 49%, #2cd4d9 100%);
+    background-color: #343a40 !important;
+}

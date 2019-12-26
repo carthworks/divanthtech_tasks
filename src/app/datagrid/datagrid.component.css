@@ -1,0 +1,68 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.example-header {
+    min-height: 64px;
+    padding: 8px 24px 0;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+.mat-table {
+    overflow: auto;
+    max-height: 500px;
+}
+
+/* Structure */
+table {
+    width: 100%;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+input#mat-input-0 {
+    min-height: 36px;
+    border: 1px solid #dfdfdf;
+    margin: 0 1rem;
+    width: 98%;
+}
+
+.page-wrap {
+    padding: 1em;
+}
+
+.mat-focused .placeholder {
+    color: tomato;
+}
+
+/* .mat-row:nth-child(even) {
+    background-color: #0c0c0c;
+}
+
+.mat-row:nth-child(odd) {
+    background-color: black;
+} */
+
+.gray {
+    background-color: #0c0c0c
+}
+
+tr.mat-footer-row,
+tr.mat-row {
+    height: 80px;
+}
+
+p.instruction-msg {
+    padding: 1em 1em;
+    font-size: 0.8rem;
+    color: #676464;
+}

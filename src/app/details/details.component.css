@@ -1,0 +1,9 @@
+h1.card-title {
+    text-align: left;
+    width: 100%;
+    color: #fff;
+    padding: 1rem 1rem;
+    font-weight: 300;
+    background-color: #4aa741;
+    height: 60px;
+}
