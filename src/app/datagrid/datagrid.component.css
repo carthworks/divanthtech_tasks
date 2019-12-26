@@ -4,6 +4,15 @@
     min-width: 300px;
 }
 
+h3.clickh3 {
+    font-size: 0.8rem;
+    color: #424242;
+    padding: 0.7rem;
+    padding-left: 12px;
+    text-transform: uppercase;
+    background: #cec4c4;
+}
+
 .example-header {
     min-height: 64px;
     padding: 8px 24px 0;
