@@ -1,7 +1,7 @@
 <div class="page-wrap">
   <div class="row ">
     <section class="col-12 mx-10">
-      <h3 clss ="currentuser">Hi {{ currentUser.firstName }}!</h3>
+      <h3 class ="currentuser">Hi {{ currentUser.firstName }}!</h3>
     </section>
     <section class="col-12 mx-10">
      <app-d3barchart *ngIf="chartData" [data]="chartData"> loading graph...</app-d3barchart>
@@ -25,6 +25,8 @@
   }
 
   .currentuser{
-    font-size: 14px;
+    font-size: 1rem;
+    padding: 1em 0;
+    text-transform: capitalize;
   }
 </style>
